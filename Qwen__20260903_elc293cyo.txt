@@ -1,0 +1,36 @@
+
+## How to Update Your Portfolio
+
+### 1. Preview the Website
+
+**On Your Computer:**
+- Simply double-click `index.html` to open it in your browser
+- Or right-click → Open with → Choose your browser
+
+### 2. Replace/Add Photographs
+
+**Your Profile Photo:**
+1. Prepare your photo (recommended: 400x500px, JPG format)
+2. Name it `profile.jpg`
+3. Replace the file in `assets/images/profile.jpg`
+4. The website will automatically show the new photo
+
+**For Gallery (Future):**
+- Create a folder `assets/images/gallery/`
+- Add your event photos there
+- Update the HTML in the Gallery section
+
+### 3. Update Publications
+
+1. Open `index.html` in a text editor (Notepad, VS Code, etc.)
+2. Find the "Publications Section" (search for `id="publications"`)
+3. Add new publications using this format:
+
+```html
+<div class="publication-item">
+    <div class="pub-year">2026</div>
+    <div class="pub-content">
+        <h4>Your Publication Title</h4>
+        <p class="pub-journal"><strong>Journal Name</strong> | Additional Info</p>
+    </div>
+</div>
